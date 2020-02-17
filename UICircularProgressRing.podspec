@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "UICircularProgressRing"
-  s.version      = "6.4.0"
+  s.version      = "6.4.1.rc.1"
   s.summary      = "A highly customizable circular progress bar for iOS written in Swift"
 
   s.description  = <<-DESC
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.tvos.deployment_target = "10.0"
   s.source       = { :git => "https://github.com/luispadron/UICircularProgressRing.git", :tag => "v#{s.version}" }
+  s.swift_versions = ['5.0']
 
   s.source_files  = "src/UICircularProgressRing", "src/UICircularProgressRing/**/*.{h,m}"
 end
