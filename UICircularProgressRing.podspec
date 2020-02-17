@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   A highly customizable circular progress bar for iOS written in Swift, with Interface Builder support.
                    DESC
 
-  s.homepage     = "https://github.com/luispadron/UICircularProgressRing"
+  s.homepage     = "https://github.com/Nixon506E/UICircularProgressRing"
   s.screenshots  = "https://raw.githubusercontent.com/luispadron/UICircularProgressRing/master/.github/banner.png", "https://raw.githubusercontent.com/luispadron/UICircularProgressRing/master/.github/demo.gif"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.0"
   s.tvos.deployment_target = "10.0"
-  s.source       = { :git => "https://github.com/luispadron/UICircularProgressRing.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/Nixon506E/UICircularProgressRing.git", :tag => s.version.to_s }
   s.swift_versions = ['5.0']
 
   s.source_files  = "src/UICircularProgressRing", "src/UICircularProgressRing/**/*.{h,m}"
